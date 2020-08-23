@@ -1,4 +1,4 @@
-name: senior2
+name: senior
 channels:
   - defaults
 dependencies:
