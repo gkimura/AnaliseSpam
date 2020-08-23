@@ -13,16 +13,26 @@ Análise exploratória e classificação de mensagens
 ### Execução
 
 * Para a criação do ambiente de execução, segue o comando conda:
-	* $ conda env create -f seniorenv.yml
-	* $ conda activate senior 
+
+	```
+	$ conda env create -f seniorenv.yml
+	$ conda activate senior
+	``` 
 
 * Para executar a interface de visualização, execute os comandos abaixo. Uma página de navegação será aberta. 
-	* $ cd src/
-	* $ streamlit run app.py
+	  
+	 ```
+	 $ cd src/
+	 $ streamlit run app.py
+	 ```
 
 * Para visualizar as análises exploratórias, execute os comandos abaixo.
-	* $ cd src/
-	* $ jupyter notebook
+	
+	```
+	$ cd src/
+	$ jupyter notebook
+	```
+	
 	* Selecione o arquivo Análise_de_Spams.ipynb
 	* A página com as análises será aberta.
 
