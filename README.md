@@ -1,30 +1,23 @@
 # Desafio Análise de Spam
 
-Análise exploratória e classificação de mensagens 
+Análise exploratória e classificação de emails 
 
 ### Análises e Implementações
 
-* __src/Análise_de_Spams.ipynb__: Análise exploratória da base de dados senior.csv armazenados em __data/smssenior.csv__.
+* __src/0-Exploratory-Analysis.ipynb__: Análise exploratória da base de dados armazenada em __data/.csv__.
 
-* __src/app.py__: visualização interativa das análises exploratórias e desempenho apresentado pelos modelos classificadores avaliados.
+* __src/1-Spam-Email-Classification.py__: Modelagem dos dados e modelo classificador de emails.
 
-* __src/classifier.py__: classe contendo o tratamento de balanceamento das classes, divisão do dataset e função de avaliação dos modelos classificadores.
+* __src/2-Spam-Email-Classification-NLP.py__: Modelagem dos dados e modelo classificador de emails com base na feature de descrição das mensagens.
 
 ### Execução
 
 * Para a criação do ambiente de execução, segue o comando conda:
 
 	```
-	$ conda env create -f seniorenv.yml
-	$ conda activate senior
+	$ conda env create -f spam-analysis-env.yml
+	$ conda activate spam-analysis-env
 	``` 
-
-* Para executar a interface de visualização, execute os comandos abaixo. Uma página de navegação será aberta. 
-	  
-	 ```
-	 $ cd src/
-	 $ streamlit run app.py
-	 ```
 
 * Para visualizar as análises exploratórias, execute os comandos abaixo.
 	
@@ -33,7 +26,7 @@ Análise exploratória e classificação de mensagens
 	$ jupyter notebook
 	```
 	
-	* Selecione o arquivo Análise_de_Spams.ipynb
+	* Selecione um dos arquivos .ipynb
 	* A página com as análises será aberta.
 
 
